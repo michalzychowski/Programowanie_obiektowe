@@ -56,11 +56,11 @@ public class Main {
 
         //Zadanie 3
         System.out.println("Zadanie 3:");
-        Ksiegarnia ksieg1 = new Ksiegarnia("Amorek", 30, 34567);
-        Podrecznik p = new Podrecznik("Programowanie obiektowe dla studentow", "Andrzej", "Szwed", 2010);
-        Powiesc pow1 = new Powiesc("Tomek w krainie Kangurów", "Alfred", "Szklarski", 1997, "przygodowa");
-        Klient k1 = new Klient("Krzysztof", "Bartczak");
-        Ksiazka ks1 = new Ksiazka("Alfabet morsea", "Jan", "Morse", 1990);
+        Ksiegarnia ksieg1 = new Ksiegarnia("Tania Książka", 30, 34567);
+        Podrecznik p = new Podrecznik("Analiza matematyczna cz. 1", "Katarzyna", "Szary", 2020);
+        Powiesc pow1 = new Powiesc("Alicja w Krainie Czarów", "Lewis", "Carroll", 1865, "fantasy");
+        Klient k1 = new Klient("Jan", "Kowalski");
+        Ksiazka ks1 = new Ksiazka("Latarnik", "Henryk", "Sienkiewicz", 1882);
         ksieg1.wypisz();
         System.out.println();
         p.wypisz();
